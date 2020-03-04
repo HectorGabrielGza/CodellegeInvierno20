@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html><!--comensamos el programa-->
+	<head>
+		<title>Formulario</title>
+        <meta charset="utf-8">
+	</head>
+	<body>
+	
+		<h1>Formulario</h1><!--introducimos titulo-->
+	    <form> 
+    	<table>
+        	<tr><!--iniciamos tabla-->
+				 
+               	<td><label>User id:</label></td>
+				<td><input type="text" maxlength="12"><br></td>
+                
+            </tr>
+            <tr>
+				<td><label>Password:</label></td>
+				<td><input type="Password"maxlength="12"></td>
+            </tr> 
+            <tr>
+       			<td><label>Name:</label></td>
+				<td><input type="text"></td>
+            </tr>
+            <tr>
+    	    	<td><label>Address:</label></td>
+				<td><input type="text"></td>
+            </tr>
+            <tr>
+    	    	<td><label>Countryh :</label></td>
+                <td>
+                	<select>
+    					<option>Mexico</option>
+ 					    <option>Estados Unidos</option>
+ 					    <option>Peru</option>
+ 					    <option>China</option>
+                        <option>Ninguna de los anteriores</option>
+  					</select>
+                </td>
+            </tr>
+            <tr>
+    	    	<td><label for="a">IP Code:</label></td>
+				<td><input type="number"id="a"></td>
+            </tr>
+            <tr>
+    	    	<td><label for="s">E-mail:</label></td>
+				<td><input type="email"id="s"></td >
+            </tr>
+            <tr>
+    	    	<td><label>sex:</label></td>
+				<td>
+               		<input type="radio"name="gender">
+  					<label for="male">Male</label >
+  					<input type="radio"name="gender">
+  					<label for="female">Female</label><br>
+                </td>
+            </tr>
+            <tr>
+    	    	<td><label>language:</label></td>
+                <td>
+					<input type="radio"name="gendr">
+  					<label for="male">English</label>
+  						<input type="radio"name="gendr">
+  						<label for="female">Not English</label><br>
+                	</td>
+            	</tr>
+            	<tr>
+    	    	<td>
+                    <label>About:</label></td>
+					<td><textarea name="message" rows="10" cols="30">	</textarea></td>
+            	</tr>
+        	</table>
+        </form>
+		 <input type="submit"valud="submit">
+         
+	</body>
+</html>
+
